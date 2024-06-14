@@ -20,13 +20,13 @@ public class Main {
         cliente3.maletaSumar();
         cliente3.facturaTicket();
         //Cliente4
-        Ticket cliente4 = new Ticket ("12343","Eranan COrtez","9/02/20203",0,0,0,0,0,0,5,13);
+        Ticket cliente4 = new Ticket ("12343","Eranan COrtez","9/02/20203",0,0,0,0,0,0,0,13);
         cliente4.pedirRuta();
         cliente4.pedirServicio();
         cliente4.maletaSumar();
         cliente4.facturaTicket();
         //Cliente5
-        Ticket cliente5 = new Ticket ("124354","Carlos Vera","73/02/20235",0,0,0,0,0,0,5,14);
+        Ticket cliente5 = new Ticket ("124354","Carlos Vera","73/02/20235",0,0,0,0,0,0,0,14);
         cliente5.pedirRuta();
         cliente5.pedirServicio();
         cliente5.maletaSumar();

@@ -27,7 +27,7 @@ public class Adicionales extends TipoServicio{
 
     @Override
     public double calcularCosto() {
-        return super.calcularCosto();
+        return super.calcularCosto()+getMaleta();
     }
     public double maletaSumar(){
         return calcularCosto()+getMaleta();
